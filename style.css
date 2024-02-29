@@ -1,13 +1,33 @@
-body {
-    background: #c2c2c2;
-}
-.container {
-    
-    width: 390px;
-    margin: 20px auto;
-    background: #ffffff;
-    box-shadow: 3 50px 30px rgb(red, green, blue);
-    overflow: hidden;
-    border-radius: 12px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    background: #f7f7f7;
+    color: #0e0e0e;
+}
+
+.container {
+width: 390px;
+margin: 80px auto;
+
+}
+
+.blog_item {
+    background: #ffffff;
+    box-shadow: 0 5px 3px rgb(3 27 78 / 8%);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.blog_item .thumb img {
+    padding: 15px;
+
+}
+
+.blog_item .thumb img {
+    width: 100%;
+    border-radius: 5px;
+}
